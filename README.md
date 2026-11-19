@@ -8,6 +8,8 @@ python gps_app.py
 
 Requires `pyserial`, plus `sgp4` and `matplotlib` for the drift tabs (`pip install pyserial sgp4 matplotlib`). Tkinter ships with Python.
 
+**Download (Windows, no Python needed):** [GPS-Satellite-Viewer.exe](https://github.com/lrizio/GPS-Satellite-Viewer/releases/latest/download/GPS-Satellite-Viewer.exe) · [all releases](https://github.com/lrizio/GPS-Satellite-Viewer/releases)
+
 **User guide:** [docs/GPS_Satellite_Viewer_User_Guide.pdf](docs/GPS_Satellite_Viewer_User_Guide.pdf)
 
 ## Standalone exe (Windows)
