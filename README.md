@@ -8,6 +8,8 @@ python gps_app.py
 
 Requires `pyserial`, plus `sgp4` and `matplotlib` for the drift tabs (`pip install pyserial sgp4 matplotlib`). Tkinter ships with Python.
 
+**User guide:** [docs/GPS_Satellite_Viewer_User_Guide.pdf](docs/GPS_Satellite_Viewer_User_Guide.pdf)
+
 ## Standalone exe (Windows)
 ```
 pip install pyinstaller
@@ -68,3 +70,4 @@ NMEA does not carry the broadcast ephemeris itself, i.e. the Keplerian orbit and
 - `skyclocktabs.py`: the Sky mask and PC clock tabs
 - `theme.py`: shared HamProjects Tkinter theme (copied from MiniVNATiny), including the 3D metal buttons
 - `scripts/make_icon.py`: generates `icon.ico`
+- `scripts/guide_screens.py`, `scripts/make_guide.py`: regenerate the user guide screenshots (light theme, DEMO source) and PDF
